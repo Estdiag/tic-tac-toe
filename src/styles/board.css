@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    width: 304px;
+    height: 304px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 306px;
+    height: 306px;
+    
+  }
+  
+  .container-item {
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    
+  }
